@@ -1,0 +1,31 @@
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Practice</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="form-container">
+    <div class="title">
+      <h1>Fomulário</h1>
+    </div>
+    <form class="form" name="contato" id="contato">
+      <label for="nome">Nome</label>
+      <input type="text" name="nome" id="nome" required>
+      <span class="erro"></span>
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" required>
+      <span class="erro"></span>
+      <textarea name="mensagem" id="mensagem" cols="30" rows="5"></textarea>
+      <button>Enviar</button>
+    </form>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
